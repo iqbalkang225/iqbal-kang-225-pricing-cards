@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.4rem;
+  color: #333;
+}
+
+.container {
+  width: 95vw;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+ul {
+  list-style: none;
+}
+
+.btn {
+  text-decoration: none;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+  letter-spacing: 0.05rem;
+  background: #2f9e44;
+  padding: 1.4rem 2rem;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+/* =============
+Pricing Section 
+================
+*/
+
+.pricing-section {
+  /* background-color: aquamarine; */
+  /* margin: 5rem; */
+  /* overflow: hidden; */
+}
+
+.pricing-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.pricing-card {
+  text-align: center;
+  padding: 6rem 3rem;
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.special-card {
+  background: #b2f2bb;
+}
+
+.pricing-title {
+  font-weight: bold;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  color: #2f9e44;
+}
+
+.pricing-price {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.pricing-price span {
+  font-size: 2.8rem;
+  color: #000;
+}
+
+.pricing-card p:nth-child(3) {
+  font-size: 1rem;
+  font-weight: bold;
+  letter-spacing: 0.025rem;
+  margin-bottom: 3rem;
+}
+
+.pricing-list {
+  text-align: left;
+  margin-bottom: 3rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+/* .list-icon {
+  font-size: 4rem;
+} */
